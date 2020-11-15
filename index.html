@@ -1,16 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kerala Tourism</title>
-  <link rel="stylesheet" href="./style.css">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/c676e49fa7.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
 
-  <head id="h1">Kerala Tourism</head>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light main-navbar
+  bg m-navbar-light" id="main-navbar">
+    <div class="container">
+      <a href="#" class="navbar-brand">Kerala Tourism</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav" aria-controls="p-nav"
+        aria-expanded="false" aria-label="toggle-navigation">
+        <span>Menu</span>
+      </button>
+      <div class="collapse navbar-collapse" id="my-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Populer Places</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Sign-Up</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Of Navbar -->
+
+  <!-- /* ==Image== */ -->
+  <section class="hero-warp" style="background-image: url('./images/back2.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters main-text align-items-center">
+        <div class="col-lg-7 col-md-6 d-flex align-items-end">
+          <div class="text">
+            <h1 class="mb-4 text-capitalize">find a perfect details<br>
+              of kerala tourist places.</h1>
+            <p style="font-size: 18px;">
+              Lush green tea plantations, serene winding backwaters and spice plantations are a few features that define
+              Kerala as one of the most popular tourist destinations in India. Popular as ‘God’s Own Country’ Kerala is
+              a haven for travellers who come here to unwind in the salubrious climes, away from the concrete jungle. In
+              a state where the topography ranges from cool hills to balmy sea beaches, Kerala is a sight for sore eyes.
+              Here is a list of places which are a ‘must-see’ for all those visiting this tropical paradise.
+            </p>
+            <a href="#" class="btn btn-hero py-2 px-3">View All</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /* ==End-Image== */ -->
+  <!-- ===Search=== -->
+  <section>
+    <div class="section-search">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 tab-search">
+            <div class="nav nav-pills" id="v-pills-tabs" role="tablist" aria-orientation="vertical">
+              <a href="#v-pills-home" class="nav-link p-3 active" id="v-pills-home-tab" data-toggle="pill"
+                aria-controls="v-pills-home" aria-selected="true" role="tab">Districts</a>
+              <a href="#v-pills-profile" class="nav-link p-3 active" id="v-pills-profile-tab" data-toggle="pill"
+                aria-controls="v-pills-profile" aria-selected="false" role="tab">States</a>
+              <a href="#v-pills-messages" class="nav-link p-3 active" id="v-pills-messages-tab" data-toggle="pill"
+                aria-controls="v-pills-messages" aria-selected="false" role="tab">Tourist place</a>
+              <a href="#v-pills-settings" class="nav-link p-3 active" id="v-pills-settings-tab" data-toggle="pill"
+                aria-controls="v-pills-settings" aria-selected="false" role="tab">Rivers In Keralas</a>
+            </div>
+          </div>
+          <div class="tab-content py-5" id="v-pills-tabContent">
+            <div class="tab-pane feed show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="block-17">
+                <form class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="text-field-search one-thired">
+                      <input type="text" class="form-control" placeholder="Search Location">
+                    </div>
+                    <div class="check-in one-thired">
+                      <input type="text" class="form-control" placeholder="Search Location">
+                    </div>
+                    <div class="text-field-search one-thired">
+                      <input type="text" class="form-control" placeholder="Search Location">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===End-Search=== -->
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
